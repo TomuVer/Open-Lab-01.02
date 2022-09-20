@@ -1,4 +1,5 @@
-﻿using System;
+using System;
+using System.Xml.Schema;
 
 namespace Open_Lab_01._02
 {
@@ -6,6 +7,11 @@ namespace Open_Lab_01._02
     {
         public int Sum(int a, int b)
         {
+            int sum;
+            sum = a + b;
+                return sum;
+
+           
             throw new NotImplementedException();
         }
     }
